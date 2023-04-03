@@ -1,3 +1,11 @@
+# Documentação do desafio
+
+Na pasta raiz do desafio rode o comando: docker build --pull --rm -f "DockerFile" -t nodejschallenge:latest "."
+Isso ira criar a imagem do docker para rodar o node
+Após isso basta digitar docker compose up para criar um container docker com a imagem criada, o docker compose tb ira criar um banco postgres
+Depois disso basta acessar localhost:3000/api para ter acesso ao Swegger
+Para rodar os teste basta digitar: npm run test:watch -t src/products/products.service.spec.ts
+
 # NodeJs Challenge 20201030
 
 ## Introdução
